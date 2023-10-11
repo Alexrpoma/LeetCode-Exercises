@@ -1,3 +1,12 @@
+/**
+ * Definition for singly-linked list.
+ * This class is for sum of two numbers represented by linked list.
+ * Example:
+ * Input: l1 = [2,4,3], l2 = [5,6,4]
+ * Output: [7,0,8]
+ * Explanation:
+ * 342 + 465 = 807
+ */
 public class ListNode {
   public static void main(String[] args) {
     ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
